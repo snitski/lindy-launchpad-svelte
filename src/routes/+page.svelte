@@ -3,7 +3,13 @@
     import GuideIcon from '@/images/guide.svg';
     import SupportIcon from '@/images/support.svg';
     import InspireIcon from '@/images/inspire.svg';
+
+    import heroImage from '@/images/hero.jpg';
 </script>
+
+<svelte:head>
+    <link rel='preload' as='image' href={heroImage} />
+</svelte:head>
 
 <div class='h-[75vh] bg-hero bg-no-repeat bg-cover'>
     <div class='h-full px-5 sm:px-14 md:px-28 flex gap-x-28 items-center bg-background bg-opacity-40'>

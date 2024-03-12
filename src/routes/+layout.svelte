@@ -11,6 +11,8 @@
 
 	import { InstagramLogo, DiscordLogo, HamburgerMenu } from 'svelte-radix';
 	import logo from '$lib/images/full-logo.png';
+	import logoWhite from '$lib/images/full-logo-white.png';
+	import favicon from '$lib/images/favicon.png';
 
 	const instagramURL = 'https://www.instagram.com/lindylaunchpad';
 	const discordURL = '';
@@ -20,6 +22,18 @@
 	<link rel='preconnect' href='https://fonts.googleapis.com'>
 	<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin='anonymous'>
 	<link href='https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap' rel='stylesheet'>
+
+	<link rel="icon" href={favicon}>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lindenhurst Launchpad</title>
+	<meta name="description" content="An alumni network laying the foundation for success.">
+	<meta name="author" content="Lindenhurst Launchpad">
+	<meta name="keywords" content="Lindenhurst, Launchpad, Non-Profit, Scholarship, Mentorship, Program">
+
+	<meta property="og:site_name" content="Lindenhurst Launchpad">
+	<meta property="og:title" content="Lindenhurst Launchpad">
+	<meta property="og:description" content="An alumni network laying the foundation for success.">
+	<meta property="og:image" content={logoWhite}>
 </svelte:head>
 
 <nav class='grid grid-cols-3 sticky top-0 w-full bg-background drop-shadow-sm z-50'>

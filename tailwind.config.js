@@ -15,7 +15,7 @@ const config = {
 		},
 		extend: {
 			backgroundImage: {
-				"hero": "url('./src/lib/images/hero.jpg')",
+				"hero": "url('$lib/images/hero.jpg')",
 			},
 			colors: {
 				border: "hsl(var(--border) / <alpha-value>)",

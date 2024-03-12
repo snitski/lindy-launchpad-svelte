@@ -7,6 +7,7 @@
 	import { Button } from '$lib/components/ui/button';
 	import { Separator } from '$lib/components/ui/separator';
 	import * as Collapsible from '@/components/ui/collapsible';
+	import { Toaster } from "$lib/components/ui/sonner";
 
 	import { InstagramLogo, DiscordLogo, HamburgerMenu } from 'svelte-radix';
 	import logo from '$lib/images/full-logo.png';
@@ -44,6 +45,8 @@
 	</div>
 	<Separator class='col-span-3' />
 </nav>
+
+<Toaster richColors />
 
 {#key $page.url.pathname}
 	<main class='grow' in:fly={{y: 20, duration: 400, delay: 0, easing: cubicOut, opacity: 0}}>

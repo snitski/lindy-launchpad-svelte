@@ -4,6 +4,9 @@
     import EventCard from '@/components/ui/event-card';
     import { Skeleton } from '@/components/ui/skeleton';
     import * as Card from '@/components/ui/card';
+    import { toast } from 'svelte-sonner';
+
+    data.calendarPromise.catch(() => toast.error('Failed to load upcoming events. Please try again later.'));
 </script>
 
 <div class='main-content'>

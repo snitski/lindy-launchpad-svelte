@@ -5,23 +5,23 @@
 
     const timeline = [
         {
-            date: 'April 10th',
+            date: 'May 20th',
             event: 'Mentee and Mentor information sessions'
         },
         {
-            date: 'May 17th',
+            date: 'June 12th',
+            event: 'Mentee and Mentor information sessions'
+        },
+        {
+            date: 'July 1st',
             event: 'Mentee and Mentor application deadline'
         },
         {
-            date: 'May 22nd',
-            event: 'Mentee and Mentor match day'
-        },
-        {
-            date: 'June 1st',
+            date: 'Aug. 1st',
             event: 'Start of mentorship program'
         },
         {
-            date: 'October 31st',
+            date: 'Nov. 30th',
             event: 'End of mentorship program'
         }
     ];
@@ -40,9 +40,9 @@
             </Card.Header>
             <Card.Content class='grow'>
                 <p>
-                    You will receive 5 months of mentoring, with one mandatory meeting a month. We encourage you to communicate with 
-                    your mentor outside of these meetings as well. Your mentor can help you with questions regarding college applications, 
-                    selecting courses, and more.
+                    You will receive 4 months of mentoring, meeting with a new mentor each month. In addition, there will be monthly
+                    workshops to help you with college applications, selecting courses, and more. We encourage you to communicate with 
+                    your mentors outside of these meetings as well.
                 </p>
             </Card.Content>
             <Card.Footer class='self-end'>
@@ -55,7 +55,7 @@
             </Card.Header>
             <Card.Content class='grow'>
                 <p>
-                    You must be committed to providing five months of mentoring where you will meet with your mentee at least once a month. 
+                    You must be committed to providing four months of mentoring where you will meet with a new mentee at least once a month. 
                     We will help you prepare for the program with workshops to guide you in being the best mentor you can be.
                 </p>
             </Card.Content>

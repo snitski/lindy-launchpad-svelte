@@ -1,10 +1,16 @@
 <script lang='ts'>
     import { Button } from '@/components/ui/button';
+    import * as Card from '@/components/ui/card';
+    import NewsletterForm from '@/components/ui/newsletter-form';
+    import type { PageData } from './$types';
+
     import GuideIcon from '@/images/guide.svg';
     import SupportIcon from '@/images/support.svg';
     import InspireIcon from '@/images/inspire.svg';
 
     import heroImage from '@/images/hero.jpg';
+
+    export let data: PageData;
 </script>
 
 <svelte:head>
@@ -12,8 +18,8 @@
 </svelte:head>
 
 <div class='h-[75vh] bg-hero bg-no-repeat bg-cover'>
-    <div class='h-full px-5 sm:px-14 md:px-28 flex gap-x-28 items-center bg-background bg-opacity-40'>
-        <div class='hidden sm:block w-1/2'>
+    <div class='h-full px-5 sm:px-14 md:px-28 flex flex-col md:flex-row gap-x-28 items-center bg-background bg-opacity-40'>
+        <div class='hidden md:block w-1/2'>
             <h1>Lindenhurst Launchpad</h1>
             <h2 class='italic'>An alumni network laying the foundation for success</h2>
             <div class='flex py-6 gap-8'>
@@ -21,13 +27,21 @@
                 <Button variant='outline' size='lg' href='/about-us'>Learn More</Button>
             </div>
         </div>
-        <div class='sm:hidden block'>
+        <div class='md:hidden block'>
             <h2>Lindenhurst Launchpad</h2>
             <h3 class='italic'>An alumni network laying the foundation for success</h3>
             <div class='flex py-3 gap-4'>
                 <Button href='/mentorship-program'>Apply Now</Button>
                 <Button variant='outline' href='/about-us'>Learn More</Button>
             </div>
+        </div>
+        <div class='flex justify-center md:w-1/2'>
+            <Card.Root class='min-w-52'>
+                <Card.Header class='pb-3'><h3 class='py-0'>Join our Newsletter!</h3></Card.Header>
+                <Card.Content>
+                    <NewsletterForm data={data.form} />
+                </Card.Content>
+            </Card.Root>
         </div>
     </div>
 </div>

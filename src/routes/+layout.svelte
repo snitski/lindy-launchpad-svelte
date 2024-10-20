@@ -42,7 +42,7 @@
 		<Button variant='ghost' href='/'>Home</Button>
 		<Button variant='ghost' href='/about-us'>About Us</Button>
 		<Button variant='ghost' href='/events'>Events</Button>
-		<Button variant='ghost' href='/mentorship-program'>Mentorship Program</Button>
+		<!-- <Button variant='ghost' href='/mentorship-program'>Mentorship Program</Button> -->
 	</div>
 	<div class='md:hidden col-span-2'>
 		<Collapsible.Root>

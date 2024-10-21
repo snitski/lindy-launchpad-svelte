@@ -53,7 +53,7 @@
 				<Button variant='link' href='/'>Home</Button>
 				<Button variant='link' href='/about-us'>About Us</Button>
 				<Button variant='link' href='/events'>Events</Button>
-				<Button variant='link' href='/mentorship-program'>Mentorship Program</Button>
+				<!-- <Button variant='link' href='/mentorship-program'>Mentorship Program</Button> -->
 			</Collapsible.Content>
 		</Collapsible.Root>
 	</div>

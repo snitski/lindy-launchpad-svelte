@@ -2,7 +2,7 @@
 	import '../app.pcss';
 
 	import { page } from '$app/stores';
-	import { fly } from 'svelte/transition'; 
+	import { fly } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
 	import { Button } from '$lib/components/ui/button';
 	import { Separator } from '$lib/components/ui/separator';
@@ -41,7 +41,7 @@
 	<div class='hidden md:flex justify-center overflow-visible py-3'>
 		<Button variant='ghost' href='/'>Home</Button>
 		<Button variant='ghost' href='/about-us'>About Us</Button>
-		<Button variant='ghost' href='/events'>Events</Button>
+		<!-- <Button variant='ghost' href='/events'>Events</Button> -->
 		<!-- <Button variant='ghost' href='/mentorship-program'>Mentorship Program</Button> -->
 	</div>
 	<div class='md:hidden col-span-2'>
@@ -52,7 +52,7 @@
 			<Collapsible.Content class='col-start-1 col-span-3 flex flex-col items-end'>
 				<Button variant='link' href='/'>Home</Button>
 				<Button variant='link' href='/about-us'>About Us</Button>
-				<Button variant='link' href='/events'>Events</Button>
+				<!-- <Button variant='link' href='/events'>Events</Button> -->
 				<!-- <Button variant='link' href='/mentorship-program'>Mentorship Program</Button> -->
 			</Collapsible.Content>
 		</Collapsible.Root>

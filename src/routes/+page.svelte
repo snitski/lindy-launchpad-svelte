@@ -2,6 +2,7 @@
     import { Button } from '@/components/ui/button';
     import * as Card from '@/components/ui/card';
     import NewsletterForm from '@/components/ui/newsletter-form';
+    import InstaEmbed from '@/components/ui/insta-embed';
     import type { PageData } from './$types';
 
     import GuideIcon from '@/images/guide.svg';
@@ -76,5 +77,9 @@
             <h3 class='py-0'>Support</h3>
             <p>Raise funds to support Lindenhurst students’ career aspirations.</p>
         </div>
+    </div>
+    <h2>Our Instagram</h2>
+    <div class='flex justify-center'>
+        <InstaEmbed />
     </div>
 </div>

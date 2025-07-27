@@ -53,7 +53,7 @@
 			<Collapsible.Content class='col-start-1 col-span-3 flex flex-col items-end'>
 				<Button variant='link' href='/'>Home</Button>
 				<Button variant='link' href='/about-us'>About Us</Button>
-				<Button variant='ghost' href='/about-us#mentors'>Mentors</Button>
+				<Button variant='link' href='/about-us#mentors'>Mentors</Button>
 				<!-- <Button variant='link' href='/events'>Events</Button> -->
 				<!-- <Button variant='link' href='/mentorship-program'>Mentorship Program</Button> -->
 			</Collapsible.Content>

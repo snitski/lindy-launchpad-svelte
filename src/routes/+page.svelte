@@ -2,6 +2,7 @@
     import { Button } from '@/components/ui/button';
     import * as Card from '@/components/ui/card';
     import NewsletterForm from '@/components/ui/newsletter-form';
+    import InstaEmbed from '@/components/ui/insta-embed';
     import type { PageData } from './$types';
 
     import GuideIcon from '@/images/guide.svg';
@@ -17,8 +18,8 @@
     <link rel='preload' as='image' href={heroImage} />
 </svelte:head>
 
-<div class='h-[75vh] bg-hero bg-no-repeat bg-cover'>
-    <div class='h-full px-5 sm:px-14 md:px-28 flex flex-col md:flex-row gap-x-28 items-center bg-background bg-opacity-40'>
+<div class='flex min-h-[75vh] bg-hero bg-no-repeat bg-cover'>
+    <div class='flex flex-col p-5 sm:p-14 md:p-28 md:flex-row gap-x-28 items-center bg-background bg-opacity-40'>
         <div class='hidden md:block w-1/2'>
             <h1>Lindenhurst Launchpad</h1>
             <h2 class='italic'>An alumni network laying the foundation for success</h2>
@@ -76,5 +77,9 @@
             <h3 class='py-0'>Support</h3>
             <p>Raise funds to support Lindenhurst students’ career aspirations.</p>
         </div>
+    </div>
+    <h2>Our Instagram</h2>
+    <div class='flex justify-center'>
+        <InstaEmbed />
     </div>
 </div>

@@ -23,7 +23,7 @@
             <h1>Lindenhurst Launchpad</h1>
             <h2 class='italic'>An alumni network laying the foundation for success</h2>
             <div class='flex py-6 gap-8'>
-                <Button size='lg' href='/mentorship-program'>Apply Now</Button>
+                <Button size='lg' href='https://forms.gle/byDGAB4tGE1aHmrW9'>Get Involved</Button>
                 <Button variant='outline' size='lg' href='/about-us'>Learn More</Button>
             </div>
         </div>
@@ -31,7 +31,7 @@
             <h2>Lindenhurst Launchpad</h2>
             <h3 class='italic'>An alumni network laying the foundation for success</h3>
             <div class='flex py-3 gap-4'>
-                <Button href='/mentorship-program'>Apply Now</Button>
+                <Button href='https://forms.gle/byDGAB4tGE1aHmrW9'>Get Involved</Button>
                 <Button variant='outline' href='/about-us'>Learn More</Button>
             </div>
         </div>
@@ -49,14 +49,14 @@
 <div class='main-content'>
     <h2>Who we are</h2>
     <p>
-        Lindenhurst Launchpad provides students in the community with an alumni network who are passionate about 
-        helping them succeed in high school and beyond. Navigating the endless opportunities that exist upon high 
+        Lindenhurst Launchpad provides students in the community with an alumni network who are passionate about
+        helping them succeed in high school and beyond. Navigating the endless opportunities that exist upon high
         school graduation can be overwhelming, but our alumni are here to help ease that stress for students.
     </p>
     <br />
     <p>
-        Our mentorship program connects students with passionate alumni, laying the foundation for success. We're 
-        expanding to offer workshops and scholarships, providing even more opportunities for our community's young 
+        Our mentorship program connects students with passionate alumni, laying the foundation for success. We're
+        expanding to offer workshops and scholarships, providing even more opportunities for our community's young
         minds to thrive.
     </p>
     <br />

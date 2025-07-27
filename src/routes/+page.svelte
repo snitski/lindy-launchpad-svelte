@@ -18,8 +18,8 @@
     <link rel='preload' as='image' href={heroImage} />
 </svelte:head>
 
-<div class='h-[75vh] bg-hero bg-no-repeat bg-cover'>
-    <div class='h-full px-5 sm:px-14 md:px-28 flex flex-col md:flex-row gap-x-28 items-center bg-background bg-opacity-40'>
+<div class='flex min-h-[75vh] bg-hero bg-no-repeat bg-cover'>
+    <div class='flex flex-col p-5 sm:p-14 md:p-28 md:flex-row gap-x-28 items-center bg-background bg-opacity-40'>
         <div class='hidden md:block w-1/2'>
             <h1>Lindenhurst Launchpad</h1>
             <h2 class='italic'>An alumni network laying the foundation for success</h2>
